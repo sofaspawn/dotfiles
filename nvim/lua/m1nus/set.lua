@@ -21,5 +21,4 @@ vim.opt.scrolloff = 9
 
 vim.opt.updatetime = 50
 
---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
 
