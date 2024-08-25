@@ -84,10 +84,9 @@ _G.packer_plugins = {
     path = "/home/m1nus/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["gruber-darker"] = {
-    config = { "\27LJ\2\n=\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\30colorscheme gruber-darker\bcmd\bvim\0" },
+  ["gruber-darker.nvim"] = {
     loaded = true,
-    path = "/home/m1nus/.local/share/nvim/site/pack/packer/start/gruber-darker",
+    path = "/home/m1nus/.local/share/nvim/site/pack/packer/start/gruber-darker.nvim",
     url = "https://github.com/blazkowolf/gruber-darker.nvim"
   },
   ["lsp-zero.nvim"] = {
@@ -120,9 +119,10 @@ _G.packer_plugins = {
     path = "/home/m1nus/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["oxocarbon.nvim"] = {
+  oxocarbon = {
+    config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme oxocarbon\bcmd\bvim\0" },
     loaded = true,
-    path = "/home/m1nus/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    path = "/home/m1nus/.local/share/nvim/site/pack/packer/start/oxocarbon",
     url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
   },
   ["packer.nvim"] = {
@@ -143,10 +143,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: gruber-darker
-time([[Config for gruber-darker]], true)
-try_loadstring("\27LJ\2\n=\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\30colorscheme gruber-darker\bcmd\bvim\0", "config", "gruber-darker")
-time([[Config for gruber-darker]], false)
+-- Config for: oxocarbon
+time([[Config for oxocarbon]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme oxocarbon\bcmd\bvim\0", "config", "oxocarbon")
+time([[Config for oxocarbon]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

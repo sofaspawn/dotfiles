@@ -1,7 +1,7 @@
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
-vim.opt.rnu = false
+vim.opt.rnu = true
 
 vim.opt.softtabstop = 4
 vim.opt.tabstop = 4
@@ -17,7 +17,7 @@ vim.opt.swapfile = false
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.opt.scrolloff = 9
+vim.opt.scrolloff = 12
 
 vim.opt.updatetime = 50
 
