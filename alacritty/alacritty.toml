@@ -19,7 +19,6 @@
 # https://github.com/alacritty/alacritty/tree/master#configuration
 
 [window]
-
 opacity = 1.0
 
 dynamic_padding = true
@@ -38,7 +37,6 @@ lines = 40
 
 
 [font]
-
 #normal.family = "roboto mono"
 #normal.family = "monaco"
 #normal.family = "sf mono"
